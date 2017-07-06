@@ -1,8 +1,6 @@
 """No op resizer"""
 from r2.lib.providers.image_resizing import ImageResizingProvider
 
-__version__ = 0.1
-
 
 class NoOp2ImageResizingProvider(ImageResizingProvider):
     """A passthrough solution that won't actually resize any images.
